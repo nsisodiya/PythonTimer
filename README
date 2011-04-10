@@ -1,0 +1,19 @@
+This is Pythoin Timer Class
+
+import PythonTimer
+t = PythonTimer.TickTockTimer()
+t.StartTimer()
+t.GetTime()
+3.9744668006896973
+
+You can pause/unpause the Timer
+t.Pause()
+t.UnPause()
+
+You can get Time Inverval between 2 times. like
+
+t.Tick()
+call some function()
+print t.Tick() Time elapsed since last tick
+call some function()
+print t.Tick() Time elapsed since last tick
